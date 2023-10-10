@@ -1,29 +1,33 @@
 {
-  "name": "turnix-front",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "13.5.4",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^6.7.4",
-    "eslint": "^8.51.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "13.5.4",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-react": "^7.33.2",
-    "typescript": "^5"
-  }
+	"name": "turnix-front",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@rainbow-me/rainbowkit": "^1.1.1",
+		"next": "13.5.4",
+		"react": "^18",
+		"react-dom": "^18",
+		"viem": "~1.12.2",
+		"wagmi": "~1.4.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"@typescript-eslint/eslint-plugin": "^6.7.4",
+		"@typescript-eslint/parser": "^6.7.4",
+		"eslint": "^8.51.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-next": "13.5.4",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-react": "^7.33.2",
+		"typescript": "^5.0.4"
+	}
 }
+
