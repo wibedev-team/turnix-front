@@ -21,7 +21,20 @@
 		"react/jsx-filename-extension": [
 			2,
 			{ "extensions": [".js", ".jsx", ".ts", ".tsx"] }
-		]
+		],
+		"import/no-extraneous-dependencies": [
+			"off",
+			{
+				"devDependencies": false,
+				"optionalDependencies": false,
+				"peerDependencies": false
+			}
+		],
+		"no-return-await": "off",
+		"import/extensions": "off",
+		"import/no-unresolved": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-props-no-spreading": "off",
+		"@typescript-eslint/no-explicit-any": "warn"
 	}
 }
-
